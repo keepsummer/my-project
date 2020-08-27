@@ -15,6 +15,8 @@ export default new Router({
       path: '/',
       name:'导航1',
       component: Index,
+      redirect:"/page1",
+      // redirect 设置默认进入页面
       children:[
         {
           path: '/page1',
